@@ -71,7 +71,7 @@ JWT_SECRET=your_secret_key
 ### 4. Start Backend Server
 
 ```bash
-npm run dev
+node index.js
 ```
 
 ### 5. Install Frontend Dependencies
@@ -98,14 +98,14 @@ task-management-system/
 │   ├── routes/
 │   ├── controllers/
 │   ├── middleware/
-│   └── server.js
+│   ├── index.js
+│   └── .env
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   └── App.js
-├── README.md
-└── .env
+└── README.md
 ```
 
 ---
